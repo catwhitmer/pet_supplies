@@ -1,9 +1,10 @@
 class PetSupplies::CLI
   
   def start 
-    puts "Welcome to Pet Supplies! Your stop for your pets favorite food, treats, and toys."
+    puts "Welcome to Cat's Pet Supplies!"
     puts "Which pet would you like more information about?"
     puts "Type either dogs, cats, or small animals?"
+    puts "To leave anytime, type exit."
     
     input = gets.strip.downcase
     
@@ -11,9 +12,9 @@ class PetSupplies::CLI
       when "dogs"
         puts "doggies"
       when "cats"
-        puts ""
+        puts "kitties"
       when "small_animals"
-        puts ""
+        puts "aww"
       when "exit" 
         puts "Goodbye"
       else 
