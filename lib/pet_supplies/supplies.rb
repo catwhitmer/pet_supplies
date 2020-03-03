@@ -5,7 +5,7 @@ class PetSupplies::Supplies
   
   def initialize(name, url)
     @name = name
-    @url = url 
+    @url = "https://www.amazon.com" + url 
     @@all << self
   end
   
