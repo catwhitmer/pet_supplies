@@ -21,6 +21,7 @@ class PetSupplies::CLI
         #https://www.amazon.com/dogs-supplies-training-beds-collars-grooming/b/?ie=UTF8&node=2975312011&ref_=sv_petsupplies_3"
       
       when "small animals"
+        puts "small animals"
         #scrape small animals page 
         #https://www.amazon.com/dogs-supplies-training-beds-collars-grooming/b/?ie=UTF8&node=2975312011&ref_=sv_petsupplies_5"
        
