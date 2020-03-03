@@ -1,6 +1,7 @@
-require "pet_supplies/version"
+#environment file
+require 'nokogiri'
+require 'open-uri'
+require 'pry'
 
-module PetSupplies
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "pet_supplies/version"
+require_relative "pet_supplies/cli"

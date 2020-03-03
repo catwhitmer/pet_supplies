@@ -1,0 +1,3 @@
+class PetSupplies::CLI
+  
+end
