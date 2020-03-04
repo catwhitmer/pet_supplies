@@ -1,8 +1,8 @@
 class PetSupplies::CLI
   
   def start 
-    puts "Welcome to Cat's Pet Supplies!"
-    puts "Which pet would you like more information about?"
+    puts "Welcome to Pet Supplies!"
+    puts "Which pet are you shopping for today?"
     puts "Type either dogs, cats, or small animals?"
     puts "To leave anytime, type exit."
     

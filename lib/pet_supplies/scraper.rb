@@ -5,7 +5,6 @@ class PetSupplies::Scraper
     links_array = page.css("span.a-list-item")
     
     links_array.map do |link|
-      binding.pry
       PetSupplies::Supplies.new(link.text, link.first_element_child.attributes["href"].value)
     end
     #return value will be an array of objects
